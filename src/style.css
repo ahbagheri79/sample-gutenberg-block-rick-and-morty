@@ -1,0 +1,35 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(200px, 1fr) );
+    gap: 20px;
+}
+
+.character-card {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.character-card h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.load-more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.load-more-button:hover {
+    background-color: #005177;
+}
